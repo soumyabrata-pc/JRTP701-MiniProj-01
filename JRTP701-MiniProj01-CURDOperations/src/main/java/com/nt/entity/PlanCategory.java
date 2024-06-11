@@ -39,4 +39,7 @@ public class PlanCategory {
 	
 	@Column(name="UPDATED_BY",length=20)
 	private String updatedBy;
+	
+//	@Column(name="ACTIVE_SW",length=20)
+//	private String activeSW="active";
 }
