@@ -1,0 +1,26 @@
+server:
+  port: 4041
+spring:
+  application:
+    name: JRTP701-MiniProj01-CURDOperations
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: ntraja
+    url: jdbc:h2:mem:testdb
+    username: ntraja
+  jpa:
+    show-sql: true
+
+plan:
+   module:
+      messages:
+         SAVE-SUCCESS: TRAVEL PLAN SAVED WITH ID VALUE
+         SAVE-FAILURE: THAVEL PLAN IS NOT SAVED WITH VALE
+         FIND-BY-ID-FAILURE: TRAVEL PLAN IS NOT FOUND
+         UPDATE-SUCCESS: TRAVEL PLAN UPDATED SUCCESSFULLY
+         UPDATE-FAILURE: TRAVEL PLAN IS NOT UPDATED
+         DELETE-SUCCESS: TRAVEL PLAN DELETED SUCCESSFULLY
+         DELETE-FAILURE: TRAVELPLAN FAILED TO DELETE
+         STATUS-CHANGE-SUCCESS: STATUS SUCCESSFULLY CHANGED
+         STATUS-CHANGE-FAILURE: STATUS NOT CHANGE, SAME AS PREVIOUS
+         

@@ -28,7 +28,7 @@ public class PlanCategory {
 	private String categoryName;
 	
 	@Column(name="ACTIVE_SW",length=20)
-	private String activeSW;
+	private String activeSW="Active";
 	
 	@Column(name="CREATED_DATE",updatable=false)
 	@CreationTimestamp
@@ -40,6 +40,5 @@ public class PlanCategory {
 	@Column(name="UPDATED_BY",length=20)
 	private String updatedBy;
 	
-//	@Column(name="ACTIVE_SW",length=20)
-//	private String activeSW="active";
+	
 }

@@ -11,3 +11,4 @@ public class Jrtp701MiniProj01CurdOperationsApplication {
 	}
 
 }
+

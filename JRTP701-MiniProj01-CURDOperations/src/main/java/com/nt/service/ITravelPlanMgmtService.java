@@ -14,5 +14,5 @@ public interface ITravelPlanMgmtService {
 	public String updateTravelPlan(TravelPlan plan); //
 	public String deleteTravelPlan(Integer planId); //
 	public String changeTravelPlanStatus(Integer PlanId, String status); //
-
+	
 }

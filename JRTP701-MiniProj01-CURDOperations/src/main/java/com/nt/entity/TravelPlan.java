@@ -15,7 +15,9 @@ import lombok.Data;
 @Entity
 @Table(name="JRTP701_TRAVEL_PLAN")
 @Data
+
 public class TravelPlan {
+	
 	@Id
 	@Column(name="PLAN_ID")
 	@GeneratedValue(strategy=GenerationType.AUTO)
@@ -44,14 +46,12 @@ public class TravelPlan {
 	
 	
 	@Column(name="CREATED_BY",length=20)
-	private LocalDateTime createdBy;
+	private String createdBy;
 	
 	@Column(name="UPDATED_BY",length=20)
-	private LocalDateTime updatedBy;
+	private String updatedBy;
 	
 	@Column(name="ACTIVE_SW",length=20)
 	private String activeSW="active";
 	
-	
-
 }
